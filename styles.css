@@ -47,7 +47,7 @@ main {
 }
 
 .cart-button {
-    padding: 8px 15px;
+    padding: 8px 15px 8px 40px;
     color: rgb(240, 241, 244);
     border: none;
     border-radius: 3px;
@@ -55,10 +55,24 @@ main {
     cursor: pointer;
     opacity: 0.7;
     background-color: blue;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
     font-weight: bold;
+    position: relative;
 }
+
+.cart-button::before {
+    content: '';
+    background-image: url(./img/basket.png);
+    background-size: contain;
+    display: block;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: 11px;
+    left: 7px;
+}
+
+
 
 .cart-button:hover {
     opacity: 1;
@@ -96,6 +110,8 @@ main {
     display: flex;
     flex-flow: column;
     padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 0px 10px rgba(128, 128, 128, 0.247);  
 
 }
 
