@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "title": "Laptop",
+      "price": 2560,
+      "img_url": "laptop.png"
+    },
+    {
+      "id": 2,
+      "title": "Mause",
+      "price": 10,
+      "img_url": "mause.png"
+    },
+    {
+      "id": 3,
+      "title": "Display",
+      "price": 130,
+      "img_url": "display.png"
+    },
+    {
+      "id": 4,
+      "title": "Keyboard",
+      "price": 3050,
+      "img_url": "keyboard.png"
+    }
+  ]
